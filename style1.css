@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ee0a9a;
+    border:5px solid #09e59c;
+    padding: 15px;
+    width: fit-content;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 320px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card{
+background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #99f2c8, #51ea04);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #99f2c8, #f8f809); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+.card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3{
+    padding: 15px 20px 10px;
+    color: #222;
+}
+
+.card p{
+    padding: 0 20px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.card button{
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.card button:hover{
+    background: #0056b3;
+}
+
+
+.card button{
+    background: rgba(2, 167, 227, 0.2);
+    color: rgb(234, 6, 6);
+    border: 1px solid rgba(9, 243, 40, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+}
+
+.card button:hover{
+    background: rgba(6, 152, 225, 0.3);
+}
+
+
+body{
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #516B8B,
+        #056B3B
+    );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.features{
+    margin: 10px 25px;
+    padding-left: 20px;
+}
+
+.features li{
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 16px;
+}
