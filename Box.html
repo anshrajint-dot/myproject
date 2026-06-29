@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Position Example</title>
+
+<style>
+
+/* ===========================
+   Body Styling
+=========================== */
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+
+/* ===========================
+   Sticky Navbar
+=========================== */
+
+.navbar{
+    background:black;
+    color:white;
+    padding:20px;
+
+    /* Scroll karne par top pe chipak jayega */
+    position:sticky;
+
+    /* Screen ke top se chipkega */
+    top:0;
+}
+
+.running{
+    height:200px;
+    width:120%;
+    background:blueviolet;
+}
+
+
+/* ===========================
+   Parent Box
+=========================== */
+
+.container{
+
+    width:500px;
+    height:300px;
+
+    margin:50px auto;
+
+    background:lightblue;
+
+    border:3px solid black;
+
+    /* Bahut Important
+       Absolute child isi box ke respect me move karega
+    */
+    position:relative;
+}
+
+
+/* ===========================
+   Relative Box
+=========================== */
+
+.relative-box{
+
+    width:120px;
+    height:120px;
+
+    background:red;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /*
+      Ye apni original position se move hoga
+    */
+    position:relative;
+
+    top:20px;
+    left:20px;
+}
+
+
+/* ===========================
+   Absolute Box
+=========================== */
+
+.absolute-box{
+
+    width:100px;
+    height:100px;
+
+    background:green;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /*
+       Parent (.container) ke hisaab se move karega
+    */
+    position:absolute;
+
+    top:20px;
+    right:20px;
+}
+
+
+/* ===========================
+   Fixed Button
+=========================== */
+
+.fixed-box{
+
+    width:120px;
+    height:50px;
+
+    background:orange;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /*
+      Scroll hone ke baad bhi
+      screen par yahi rahega
+    */
+    position:fixed;
+
+    bottom:20px;
+    right:20px;
+}
+
+
+/* Scroll ke liye content */
+
+.content{
+
+    height:1200px;
+
+    padding:20px;
+
+    background:#eee;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Sticky Navbar -->
+<div class="navbar">
+    Sticky Navbar
+</div>
+
+
+<!-- Parent Box -->
+<div class="container">
+
+    <!-- Relative Box -->
+    <div class="relative-box">
+        Relative
+    </div>
+
+    <!-- Absolute Box -->
+    <div class="absolute-box">
+        Absolute
+    </div>
+
+</div>
+
+
+<!-- Fixed Button -->
+<div class="fixed-box">
+    Fixed
+</div>
+
+
+
+
+</p>
+
+</div>
+
+<div class="container">
+
+    <!-- Relative Box -->
+    <div class="relative-box">
+        Relative
+    </div>
+
+    <!-- Absolute Box -->
+    <div class="absolute-box">
+        Absolute
+    </div>
+
+</div>
+
+
+<!-- Fixed Button -->
+<div class="fixed-box">
+    Fixed
+</div>
+
+
+
+
+</div>
+
+
+<div class="running"></div>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita esse vel obcaecati nesciunt delectus molestias! Tenetur quasi laborum recusandae aperiam ea reprehenderit, placeat illum impedit laudantium fugit consequatur magnam . lorem
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat, aliquid quam incidunt laudantium sed eos accusamus voluptatibus. Ducimus consequatur quasi modi, nisi tempora ratione labore deserunt incidunt deleniti? Error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, maxime assumenda quaerat nulla impedit dolorum facere eos obcaecati placeat porro excepturi, ex itaque sequi perferendis odio dignissimos, vero ipsam? Odit.
+</p>
+</body>
+</html>

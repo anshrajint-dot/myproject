@@ -1,0 +1,995 @@
+
+/* ==========================
+      BODY
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* ==========================
+      TOP RED BAR
+========================== */
+
+.top-bar{
+
+    background:red;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:12px 70px;
+}
+
+
+/* Social Icons */
+
+.social i{
+
+    margin-right:25px;
+
+    cursor:pointer;
+}
+
+
+/* Top Menu */
+
+.top-menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-left:20px;
+
+    font-weight:bold;
+
+    font-size:15px;
+}
+
+
+
+/* ==========================
+      HEADER
+========================== */
+
+header{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    padding:25px 40px;
+
+    background:white;
+}
+
+
+/* Logo Image */
+
+.logo img{
+
+    width:150px;
+}
+
+
+/* Feature Box */
+
+.feature{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+/* Icon */
+
+.feature i{
+
+    font-size:35px;
+
+    color:red;
+
+    margin-right:10px;
+}
+
+
+/* Heading */
+
+.feature h4{
+
+    color:red;
+}
+
+
+/* Paragraph */
+
+.feature p{
+
+    margin-top:5px;
+
+}
+
+
+
+/* ==========================
+      NAVBAR
+========================== */
+
+nav{
+
+    width:80%;
+
+    margin:30px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:white;
+
+    padding:20px 40px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,.2);
+
+}
+
+
+/* Menu */
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+
+/* Space Between Menu */
+
+nav ul li{
+
+    margin-right:35px;
+
+}
+
+
+/* Links */
+
+nav ul li a{
+
+    text-decoration:none;
+
+    color:black;
+
+    font-size:18px;
+
+}
+
+
+/* Booking Button */
+
+.btn{
+
+    background:red;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:40px;
+
+    font-weight:bold;
+
+}
+
+
+/* Hover */
+
+.btn:hover{
+
+    background:black;
+}
+
+
+
+nav ul li a:hover{
+
+    color:red;
+}
+
+
+
+/* ===========================
+      HERO SECTION
+=========================== */
+
+.hero{
+
+    height:550px;
+
+    /* Background Image */
+
+    background:url(images/banner.jpg);
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+/* Dark Overlay */
+
+.hero-content{
+
+    text-align:center;
+
+    color:white;
+
+    background:rgba(0,0,0,.55);
+
+    padding:50px;
+
+    border-radius:10px;
+
+}
+
+
+/* Heading */
+
+.hero-content h1{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+}
+
+
+/* Paragraph */
+
+.hero-content p{
+
+    font-size:22px;
+
+    margin-bottom:30px;
+
+}
+
+
+/* Button */
+
+.hero-btn{
+
+    background:red;
+
+    color:white;
+
+    padding:15px 40px;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+}
+
+
+.hero-btn:hover{
+
+    background:black;
+
+}
+
+
+
+
+
+/* ===========================
+      SERVICES
+=========================== */
+
+.services{
+
+    padding:70px;
+
+    text-align:center;
+
+}
+
+
+/* Heading */
+
+.services h2{
+
+    color:red;
+
+    font-size:42px;
+
+}
+
+
+/* Paragraph */
+
+.services p{
+
+    margin-top:10px;
+
+    color:#666;
+
+}
+
+
+
+/* Card Container */
+
+.service-box{
+
+    margin-top:50px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    flex-wrap:wrap;
+
+}
+
+
+/* Single Card */
+
+.card{
+
+    width:23%;
+
+    background:#eef7ff;
+
+    padding:40px 20px;
+
+    transition:.4s;
+
+    border-radius:10px;
+
+}
+
+
+/* Icon */
+
+.card i{
+
+    font-size:60px;
+
+    color:red;
+
+}
+
+
+/* Heading */
+
+.card h3{
+
+    margin:20px 0;
+
+}
+
+
+/* Hover Effect */
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+
+
+
+
+/* ===========================
+      ABOUT
+=========================== */
+
+.about{
+
+    padding:70px;
+
+    text-align:center;
+
+}
+
+
+/* Heading */
+
+.about h2{
+
+    font-size:45px;
+
+    color:red;
+
+}
+
+
+/* Paragraph */
+
+.about p{
+
+    margin:auto;
+
+    width:70%;
+
+    margin-top:25px;
+
+    line-height:35px;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+
+/* ===================================
+        BOOKING SECTION
+=================================== */
+
+.booking{
+
+    /* Background Image */
+    background:url(images/truck.jpg);
+
+    background-size:cover;
+
+    background-position:center;
+
+    padding:80px 0;
+
+}
+
+
+/* Dark Orange Overlay */
+
+.overlay{
+
+    background:rgba(155,75,0,.65);
+
+    width:100%;
+
+    padding:60px;
+
+}
+
+
+/* Heading */
+
+.overlay h2{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:40px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+/* One Row */
+
+.row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:25px;
+
+}
+
+
+/* Input Box */
+
+.input-box{
+
+    width:48%;
+
+}
+
+
+/* Label */
+
+.input-box label{
+
+    display:block;
+
+    color:white;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+}
+
+
+/* Input */
+
+.input-box input{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    outline:none;
+
+}
+
+
+/* Select */
+
+.input-box select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+}
+
+
+
+/* Message Box */
+
+.message{
+
+    margin-top:25px;
+
+}
+
+
+/* Label */
+
+.message label{
+
+    display:block;
+
+    color:white;
+
+    margin-bottom:10px;
+
+    font-weight:bold;
+
+}
+
+
+/* Textarea */
+
+.message textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    resize:none;
+
+}
+
+
+
+/* Button */
+
+button{
+
+    margin-top:30px;
+
+    padding:15px 40px;
+
+    background:#00b894;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    border-radius:5px;
+
+}
+
+
+/* Hover */
+
+button:hover{
+
+    background:red;
+
+}
+
+
+/* ============================
+      FEATURES SECTION
+============================ */
+
+.features{
+
+    padding:80px;
+
+    text-align:center;
+
+    background:#f8f8f8;
+
+}
+
+.features h2{
+
+    font-size:40px;
+
+    color:red;
+
+}
+
+.features p{
+
+    margin-top:10px;
+
+    color:#666;
+
+}
+
+
+/* Feature Container */
+
+.feature-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    flex-wrap:wrap;
+
+    margin-top:50px;
+
+}
+
+
+/* Card */
+
+.feature-card{
+
+    width:30%;
+
+    background:white;
+
+    padding:35px;
+
+    margin-bottom:30px;
+
+    border-radius:10px;
+
+    transition:.4s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+
+/* Icon */
+
+.feature-card i{
+
+    font-size:55px;
+
+    color:red;
+
+    margin-bottom:20px;
+
+}
+
+
+/* Hover */
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+/* ============================
+      FOOTER
+============================ */
+
+footer{
+
+    background:#222;
+
+    color:white;
+
+    margin-top:60px;
+
+}
+
+
+.footer-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:60px;
+
+}
+
+
+.footer-box{
+
+    width:30%;
+
+}
+
+
+.footer-box h3{
+
+    margin-bottom:20px;
+
+}
+
+
+.footer-box a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-bottom:10px;
+
+}
+
+
+.footer-box p{
+
+    line-height:28px;
+
+}
+
+
+/* Copyright */
+
+.copyright{
+
+    text-align:center;
+
+    background:#111;
+
+    padding:15px;
+
+}
+
+
+/* ============================
+      WHATSAPP BUTTON
+============================ */
+
+.whatsapp{
+
+    position:fixed;
+
+    bottom:30px;
+
+    right:30px;
+
+    width:60px;
+
+    height:60px;
+
+    background:#25D366;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:35px;
+
+    text-decoration:none;
+
+}
+
+
+/* ============================
+      BACK TO TOP
+============================ */
+
+.top-btn{
+
+    position:fixed;
+
+    bottom:100px;
+
+    right:30px;
+
+    width:50px;
+
+    height:50px;
+
+    background:red;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+}
+
+
+/* ============================
+      RESPONSIVE
+============================ */
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+}
+
+nav{
+
+flex-direction:column;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+nav ul li{
+
+margin:15px 0;
+
+}
+
+.service-box{
+
+flex-direction:column;
+
+}
+
+.card{
+
+width:100%;
+
+margin-bottom:20px;
+
+}
+
+.feature-container{
+
+flex-direction:column;
+
+}
+
+.feature-card{
+
+width:100%;
+
+}
+
+.footer-container{
+
+flex-direction:column;
+
+}
+
+.footer-box{
+
+width:100%;
+
+margin-bottom:30px;
+
+}
+
+.row{
+
+flex-direction:column;
+
+}
+
+.input-box{
+
+width:100%;
+
+margin-bottom:20px;
+
+}
+
+}
+
+
+/* ==========================
+   BOOKING SECTION
+========================== */
+
+.booking{
+
+    /* Background Image */
+    background-image: url("Image/truck.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    padding:80px 0;
+
+}
+
+
+/* Orange Transparent Layer */
+
+.overlay{
+
+    width:100%;
+
+    padding:60px;
+
+    background:rgba(139,69,19,0.55);
+    /* rgba(R,G,B,Opacity) */
+
+}
+
